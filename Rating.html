@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Контакты</title>
+    <title>Рейтинг фильмов</title>
 
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -55,8 +55,8 @@
 							<li><a href="Index.html">Главная</a> </li>
 							<li><a href="Films.html">Фильмы</a> </li>
 							<li><a href="#">Сериалы</a> </li>
-							<li><a href="Rating.html">Рейтинг фильмов</a> </li>
-							<li class="active"><a href="Contacts.html">Контакты</a> </li>
+							<li class="active"><a href="Rating.html">Рейтинг фильмов</a> </li>
+							<li><a href="Contacts.html">Контакты</a> </li>
 						</ul>
 					</div>
 				</div>
@@ -82,24 +82,61 @@
 									</div>
 								</form>
 
-					<h2>Контакты</h2>
+					<h2>Рейтинг фильмов</h2>
 					<hr>
-					<p>Отправте Ваш отзыв о портале КиноМонстр</p>	
+				
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th></th>
+								<th>Фильм</th>
+								<th class="text-center">Год</th>
+								<th class="text-center">Рейтинг</th>
+							</tr>
+						</thead>
+						<tbody>
+						<tr>
+							<td class="col-lg-1 col-md-1 col-xs-2">
+								<img class="img-responsive img-thumbnail" src="assets/img/inter.png" alt="Интерстеллар">
+							</td>
+							<td class="vert-align"><a href="Show.html">Интерстеллар</a></td>
+							<td class="text-center vert-align">2014</td>
+							<td class="text-center vert-align"><span class="badge">8.9</span></td>
+						</tr>
 
-					
-					<form>
-						<div class="form-group">
-							<input type="text" placeholder="Ваше имя" class="form-control input-lg">
-						</div>
-						<div  class="form-group">
-							<input type="text" placeholder="Ваше email" class="form-control input-lg">
-						</div>
+						<tr>
+							<td class="col-lg-1 col-md-1 col-xs-2">
+								<img class="img-responsive img-thumbnail" src="assets/img/max.png" alt="Безумный Макс">
+							</td>
+							<td class="vert-align"><a href="#">Безумный Макс</a></td>
+							<td class="text-center vert-align">2015</td>
+							<td class="text-center vert-align"><span class="badge">8.7</span></td>
+						</tr>
 
-						<div class="form-group">
-							<textarea class="form-control"></textarea>
-						</div>
-						<button class="btn btn-lg btn-warning pull-right">отправить</button> 
-					</form>
+						<tr>
+							<td class="col-lg-1 col-md-1 col-xs-2">
+								<img class="img-responsive img-thumbnail" src="assets/img/matrix.png" alt="Матрица">
+							</td>
+							<td class="vert-align"><a href="#">Матрица</a></td>
+							<td class="text-center vert-align">1999</td>
+							<td class="text-center vert-align"><span class="badge">8.3</span></td>
+						</tr>
+
+						<tr>
+							<td class="col-lg-1 col-md-1 col-xs-2">
+								<img class="img-responsive img-thumbnail" src="assets/img/cloud.png" alt="Облачный атлас">
+							</td>
+							<td class="vert-align"><a href="#">Облачный атлас</a></td>
+							<td class="text-center vert-align">2012</td>
+							<td class="text-center vert-align"><span class="badge">8.1</span></td>
+						</tr>
+
+						</tbody>
+
+
+					</table>
+			
+				
 
 					<div class="margin-8"></div>
 
