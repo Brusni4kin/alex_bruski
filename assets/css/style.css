@@ -1,5 +1,5 @@
 .body {
-	bbackground-image: src="accests/nebula.jpg";
+	bbackground-image: url(accests/nebula.jpg);
 }
 
 .header a, a:hover {
