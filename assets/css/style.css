@@ -1,3 +1,7 @@
+.body {
+	background: accests/nebula.jpg;
+}
+
 .header a, a:hover {
 	color: #f0ad4e;
 	text-decoration: none;
